@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apocalyptic Pollution", "Apocalyptic Pollution.csproj", "{967629BC-AE70-A815-007D-2DF68B4E3B4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apocalyptic Pollution.Plugins", "Apocalyptic Pollution.Plugins.csproj", "{424375F3-1C1B-6231-E118-2D2EF7D41916}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apocalyptic Pollution.Editor", "Apocalyptic Pollution.Editor.csproj", "{D4BCE1F6-4A84-E01B-DCCB-CA54DC9BEEEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apocalyptic Pollution.Editor.Plugins", "Apocalyptic Pollution.Editor.Plugins.csproj", "{C68EDEEB-3FEC-1F96-79DE-5B7D3D2D403C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +19,18 @@ Global
 		{967629BC-AE70-A815-007D-2DF68B4E3B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{967629BC-AE70-A815-007D-2DF68B4E3B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{967629BC-AE70-A815-007D-2DF68B4E3B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424375F3-1C1B-6231-E118-2D2EF7D41916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424375F3-1C1B-6231-E118-2D2EF7D41916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424375F3-1C1B-6231-E118-2D2EF7D41916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424375F3-1C1B-6231-E118-2D2EF7D41916}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D4BCE1F6-4A84-E01B-DCCB-CA54DC9BEEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D4BCE1F6-4A84-E01B-DCCB-CA54DC9BEEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4BCE1F6-4A84-E01B-DCCB-CA54DC9BEEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4BCE1F6-4A84-E01B-DCCB-CA54DC9BEEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C68EDEEB-3FEC-1F96-79DE-5B7D3D2D403C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68EDEEB-3FEC-1F96-79DE-5B7D3D2D403C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68EDEEB-3FEC-1F96-79DE-5B7D3D2D403C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68EDEEB-3FEC-1F96-79DE-5B7D3D2D403C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
